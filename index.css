@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    background-color: gray;
+    
+}
+.columns{
+    font-size: 40px; 
+    Color: white; 
+    padding-left: 20px; 
+    text-decoration: none;
+}
+.column-background{
+    padding: 50px;
+    background-color: blue;
+}
+#Minecraft_Image{
+    width: 1903px;
+    height: auto;
+}
+
+/*Laptop_Size*/
+@media all and (max-width: 1349px){
+    #Minecraft_Image{
+        width: 1349px;
+        height: 1230px;
+    }
+    
+}
+
+/*Phone_Size*/
+@media all and (max-width: 375px){
+    #Minecraft_Image{
+        display: inline;
+        width: 375px;
+        height: 300px;
+    }
+    .column-background{
+        background-color: black;
+        padding-bottom: 50px;
+    }
+    .columns{
+        font-size: 30px;
+        padding: 10px;
+    }
+}
